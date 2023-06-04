@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
-    background-color: black;
-    
+    margin: 0;
+    padding: 0;
+    background-color: black;   
 }
 
 main{
@@ -24,8 +29,7 @@ section img{
     object-fit: cover;
     opacity: .8;
     transition: .5s ease;
-    border-radius: 20px;
-    
+    border-radius: 20px;  
 }
 
 section img:hover{
