@@ -1,0 +1,36 @@
+body{
+    background-color: black;
+    
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+section{
+    display: flex;
+    width: 600px;
+    height: 430px;
+    background-color: violet;
+}
+
+section img{
+    width: 0;
+    flex-grow: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border-radius: 20px;
+    
+}
+
+section img:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+}
